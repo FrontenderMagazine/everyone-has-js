@@ -3,13 +3,16 @@ dl.graph dt{
   border-radius: 10px;
   padding: 10px;
   color: #fff;
-  box-shadow: 0 10px 0 0 #DD4814;
+  box-shadow: 0 5px 0 0 #DD4814;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
   }
+  dl.graph dt:first-child{
+    margin: 0 0 20px;
+    }
 dl.graph dd{
-  margin: 0 0 0 100px;
+  margin: 5px 0 0 100px;
   padding: 20px 0 80px 20px;
   border-left: 1px dotted #77216F;
   position: relative;
@@ -34,7 +37,10 @@ dl.graph dd{
     border-radius: 10px;
     padding: 10px;
     color: #fff;
-    box-shadow: 0 10px 0 0 #772953;
+    box-shadow: 0 5px 0 0 #772953;
     font-size: 14px;
     line-height: 16px;
     }
+    dl.graph dd div:last-child{
+      border-style: none;
+      }
