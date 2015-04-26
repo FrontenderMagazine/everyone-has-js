@@ -48,11 +48,11 @@ dl.graph dd{
     overflow: hidden;
     font-size: 0;
     line-height: 0;
-    border-width: 5px 5px 0;
+    border-width: 15px 10px 0;
     border-color: #77216F transparent transparent;
     border-style: solid;
     bottom: 0;
-    left: -5px;
+    left: -10px;
     }
   dl.graph dd div{
     background-color: #843E64;
