@@ -15,6 +15,7 @@ dl.graph a{
     text-decoration: none;
     }
 dl.graph dt{
+  width: 33%;
   float: left;
   clear: left;
   background-color: #E05A2B;
@@ -32,6 +33,7 @@ dl.graph dt{
 dl.graph dd{
   float: left;
   clear: left;
+  width: 33%;
   margin: 5px 0 0 100px;
   padding: 20px 0 80px 20px;
   border-left: 1px dotted #77216F;
@@ -61,6 +63,9 @@ dl.graph dd{
     font-size: 14px;
     line-height: 16px;
     }
+    dl.graph dd:last-child:after{
+      display: none;
+      }
     dl.graph dd:last-child{
       border-style: none;
       }
