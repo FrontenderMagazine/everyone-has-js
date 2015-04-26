@@ -15,7 +15,7 @@ dl.graph a{
     text-decoration: none;
     }
 dl.graph dt{
-  width: 33%;
+  width: 50%;
   float: left;
   clear: left;
   background-color: #E05A2B;
@@ -23,8 +23,8 @@ dl.graph dt{
   padding: 10px;
   color: #fff;
   box-shadow: 0 5px 0 0 #DD4814;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 20px;
   text-transform: uppercase;
   }
   dl.graph dt:first-child{
@@ -33,7 +33,7 @@ dl.graph dt{
 dl.graph dd{
   float: left;
   clear: left;
-  width: 33%;
+  width: 50%;
   margin: 5px 0 0 100px;
   padding: 20px 0 80px 20px;
   border-left: 1px dotted #77216F;
@@ -60,8 +60,8 @@ dl.graph dd{
     padding: 10px;
     color: #fff;
     box-shadow: 0 5px 0 0 #772953;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 20px;
     }
     dl.graph dd:last-child:after{
       display: none;
