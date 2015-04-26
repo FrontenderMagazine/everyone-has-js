@@ -1,6 +1,6 @@
 # У всех есть JavaScript, да?
 
-<style>
+<styles>
 .graph dt{
   background-color: #E05A2B;
   border-radius: 10px;
@@ -41,7 +41,7 @@
     font-size: 14px;
     line-height: 16px;
     }
-</style>
+</styles>
 
 <dl class="graph">
   <dt>Пользователь набрал в браузере url веб-приложения.</dt>
