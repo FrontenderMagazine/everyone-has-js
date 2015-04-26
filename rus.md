@@ -1,7 +1,7 @@
 # У всех есть JavaScript, да?
 
-<styles>
-.graph dt{
+<style>
+dl.graph dt{
   background-color: #E05A2B;
   border-radius: 10px;
   padding: 10px;
@@ -11,13 +11,13 @@
   line-height: 16px;
   text-transform: uppercase;
   }
-.graph dd{
+dl.graph dd{
   margin: 0 0 0 100px;
   padding: 20px 0 80px 20px;
   border-left: 1px dotted #77216F;
   position: relative;
   }
-  .graph dd:after{
+  dl.graph dd:after{
     content: "";
     display: block;
     position: absolute;
@@ -32,7 +32,7 @@
     bottom: 0;
     left: -5px;
     }
-  .graph dd div{
+  dl.graph dd div{
     background-color: #843E64;
     border-radius: 10px;
     padding: 10px;
@@ -41,7 +41,7 @@
     font-size: 14px;
     line-height: 16px;
     }
-</styles>
+</style>
 
 <dl class="graph">
   <dt>Пользователь набрал в браузере url веб-приложения.</dt>
