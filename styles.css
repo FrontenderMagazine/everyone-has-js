@@ -1,4 +1,22 @@
+dl.graph:after{
+  content:".";
+  display: block;
+  font-size:0;
+  line-height:0;
+  height:0;
+  clear:both;
+  overflow:hidden;
+  }
+dl.graph a{
+  color: #fff;
+  }
+  dl.graph a:hover{
+    color: #fff;
+    text-decoration: none;
+    }
 dl.graph dt{
+  float: left;
+  clear: left;
   background-color: #E05A2B;
   border-radius: 10px;
   padding: 10px;
@@ -12,6 +30,8 @@ dl.graph dt{
     margin: 0 0 20px;
     }
 dl.graph dd{
+  float: left;
+  clear: left;
   margin: 5px 0 0 100px;
   padding: 20px 0 80px 20px;
   border-left: 1px dotted #77216F;
@@ -41,6 +61,6 @@ dl.graph dd{
     font-size: 14px;
     line-height: 16px;
     }
-    dl.graph dd div:last-child{
+    dl.graph dd:last-child{
       border-style: none;
       }
