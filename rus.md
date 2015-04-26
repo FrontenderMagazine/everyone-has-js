@@ -20,7 +20,7 @@
   <dt>Интернет провайдер или мобильный оператор не изменяет скачиваемый JavaScript?</dt>
   <dd><div><a href="http://www.theguardian.com/technology/2014/jan/28/sky-broadband-blocks-jquery-web-critical-plugin">Sky случайно блокировал jQuery</a>, <a href="http://aaron-gustafson.com/notebook/2014/the-network-effect/">Comcast добавляет рекламу в скрипты</a>, и если вы с этим не сталкивались, то поезжайте в аэропорт и попробуйте использовать там wifi.</div></dd>
 
-  <dt>Они не взяли и не отрубили JavaScript?</dt>
+  <dt>Пользователи не отрубили JavaScript?</dt>
   <dd><div>Люди <a href="https://gds.blog.gov.uk/2013/10/21/how-many-people-are-missing-out-on-javascript-enhancement/">всё ещё так делают</a>.</div></dd>
 
   <dt>У пользователя нет плагинов или расширений, которые вставляют скрипты или меняют DOM там, где вы этого точно не ожидаете?</dt>
