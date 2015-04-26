@@ -1,5 +1,3 @@
-# У всех есть JavaScript, да?
-
 <style>
 dl.graph dt{
   background-color: #E05A2B;
@@ -42,6 +40,8 @@ dl.graph dd{
     line-height: 16px;
     }
 </style>
+
+<h1>У всех есть JavaScript, да?</h1>
 
 <dl class="graph">
   <dt>Пользователь набрал в браузере url веб-приложения.</dt>
