@@ -1,45 +1,4 @@
-<style>
-dl.graph dt{
-  background-color: #E05A2B;
-  border-radius: 10px;
-  padding: 10px;
-  color: #fff;
-  box-shadow: 0 10px 0 0 #DD4814;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  }
-dl.graph dd{
-  margin: 0 0 0 100px;
-  padding: 20px 0 80px 20px;
-  border-left: 1px dotted #77216F;
-  position: relative;
-  }
-  dl.graph dd:after{
-    content: "";
-    display: block;
-    position: absolute;
-    height: 0;
-    width: 0;
-    overflow: hidden;
-    font-size: 0;
-    line-height: 0;
-    border-width: 5px 5px 0;
-    border-color: #77216F transparent transparent;
-    border-style: solid;
-    bottom: 0;
-    left: -5px;
-    }
-  dl.graph dd div{
-    background-color: #843E64;
-    border-radius: 10px;
-    padding: 10px;
-    color: #fff;
-    box-shadow: 0 10px 0 0 #772953;
-    font-size: 14px;
-    line-height: 16px;
-    }
-</style>
+<link rel="stylesheet" href="style.css">
 
 <h1>У всех есть JavaScript, да?</h1>
 
